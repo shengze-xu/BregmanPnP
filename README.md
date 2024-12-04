@@ -34,7 +34,7 @@ Checkpoints, tensorboard events and hyperparameters will be saved in the ```GS_d
 - For testing the denoiser on these images at different noise levels $\gamma$ (here $50$, $75$ and $100$).
 ```
 cd GS_denoising
-python main_test.py --gamma_list_test 50, 75, 100 -- dataset_name DATASET_NAME
+python main_test.py --gamma_list_test 50, 75, 100 --dataset_name DATASET_NAME
 ```
 Datasets CBSD68, CBSD10, set3c are already present in the directory. Default value is CBSD10. 
 
